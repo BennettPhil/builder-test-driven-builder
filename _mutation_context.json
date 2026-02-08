@@ -1,5 +1,5 @@
 {
-  "mutation_type": "hybrid",
+  "mutation_type": "structure_change",
   "parent_id": "03bd9c0e-3cb3-43e7-b9f1-04992e30ae6b",
   "parent_name": "test-driven-builder"
 }

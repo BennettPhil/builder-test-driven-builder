@@ -1,6 +1,6 @@
 ---
 name: test-driven-builder-v0
-description: Evolved builder using hybrid mutation
+description: Evolved builder using structure_change mutation
 version: 0.1.0
 license: Apache-2.0
 ---
@@ -14,10 +14,10 @@ Generate practical agent skills from idea prompts with fast validation and clear
 3. target output directory `.soup/skills/<skill-name>/`
 
 # Mutation Focus
-- Applied mutation type: `hybrid`
+- Applied mutation type: `structure_change`
 - Parent strategy seed: --- name: test-driven-builder description: A builder that generates Agent Skills by writing tests first, then building the implementation to satisfy them. version: 0.1.0
-- New directives: Add a concise constraints section and require a references/ directory.
-- New directives: Mandate one validation command and one fallback path in generated skills.
+- New directives: Require generated skills to include SKILL.md plus references/checklist.md.
+- New directives: Move validation rules into a dedicated Validation section with pass/fail criteria.
 
 # Generation Workflow
 1. Derive a kebab-case name (3-50 chars) from the prompt.
