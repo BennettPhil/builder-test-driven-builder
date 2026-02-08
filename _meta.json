@@ -1,0 +1,7 @@
+{
+  "id": "03bd9c0e-3cb3-43e7-b9f1-04992e30ae6b",
+  "name": "test-driven-builder",
+  "description": "A builder that generates Agent Skills by writing tests first, then building the implementation to satisfy them.",
+  "fitness_score": 0.14999999,
+  "generation": 0
+}
